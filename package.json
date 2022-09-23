@@ -1,11 +1,11 @@
 {
   "name": "delpinsight-all-components",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack --watch",
-    "build": "webpack",
+    "start": "webpack --watch --mode=none",
+    "build": "webpack --mode=none",
     "prepublish": "npm run build"
     },
   "repository": {
