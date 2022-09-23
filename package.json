@@ -1,35 +1,39 @@
 {
   "name": "delpinsight-all-components",
-  "version": "1.0.3",
-  "description": "Package for delp insight components at registry",
+  "version": "1.0.9",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
     "prepublish": "npm run build"
-  },
+    },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lavanyasb16/delpinsight-components"
+    "url": "https://github.com/lavanyasb16/delpinsight-all-components"
   },
-  "author": "Lavanya",
+  "author": "Lavanya SB <lavanyasb16@gmail.com> (http://lavanyasb16.github.io/)",
   "license": "ISC",
   "dependencies": {
-    "react": "^17.0.1"
+    "react": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.1",
-    "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/preset-env": "^7.19.1",
-    "@babel/preset-react": "^7.18.6",
-    "@dds/components": "^2.16.3",
-    "babel-loader": "^8.2.5",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-node-externals": "^3.0.0"
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "style-loader": "^1.1.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
   },
   "peerDependencies": {
     "react": "^17.0.1"
   }
-
 }
