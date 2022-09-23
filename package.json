@@ -1,6 +1,6 @@
 {
-  "name": "delpinsight-components",
-  "version": "1.0.1",
+  "name": "delpinsight-all-components",
+  "version": "1.0.3",
   "description": "Package for delp insight components at registry",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psharneja/react-publishable-component"
+    "url": "https://github.com/lavanyasb16/delpinsight-components"
   },
   "author": "Lavanya",
   "license": "ISC",
